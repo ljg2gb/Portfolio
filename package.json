@@ -1,8 +1,9 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "Lydia Gregory Portfolio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Web development portfolio site",
   "version": "0.1.0",
+  "author": "Lydia Gregory <ljg2gb@virginia.edu>",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
@@ -23,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/ljg2gb/Portfolio2"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

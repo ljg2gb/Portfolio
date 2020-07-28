@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default function Home() {
   return (
-    <div style={{ color: `purple` }}>
+    <div>
       <Link to="/contact/">Contact</Link>
       <h1>Lydia Gregory's Portfolio</h1>
       <h2>Welcome, I'm glad you're here!</h2>
