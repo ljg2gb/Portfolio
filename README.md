@@ -9,6 +9,9 @@
 
 This portfolio is still in the works! Please check out my [github](https://github.com/ljg2gb) to see my latest projects.
 
+## Plugins
+* Gatsby-plugin-sass
+
 ## 💫 Author
 
 * [Lydia Gregory](https://www.linkedin.com/in/lydia-gregory/)
