@@ -15,10 +15,58 @@ $grayscale7: #393e44
 $grayscale8: #212528
 $grayscale9: #000000  
 
+@mixin links
+    font-weight: 600
+    text-decoration: none
+    color: $grayscale5
+    &:hover
+        color: $coral
+        font-size: 20px
+
+
 body
     font-family: Avenir, Helvetica Neue, sans-serif
     height: 100vh
     margin: 0
     padding: 0
-    background-color: $grayscale2
+    background-color: $white
     color: $grayscale8
+
+h1
+    font-size: 72px
+    margin: 30px 0
+
+h2
+    font-size: 36px
+
+p
+    font-size: 18px
+
+a
+    @include links
+
+nav
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0 20px
+    line-height: 20px
+    p
+        font-size: 30px
+        font-weight: 700
+
+.link
+    padding: 12px
+    @include links
+
+
+.announcement
+    width: 500px
+    // text-align: right
+    margin-top: 100px
+    margin-left: 100px
+    h1
+        margin: 16px 0
+    h3
+        margin: 10px 0
+        line-height: 36px

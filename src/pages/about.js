@@ -1,10 +1,10 @@
 import React from "react"
-import Header from "../components/header"
+import Nav from "../components/nav"
 
 export default function About() {
   return (
     <div>
-      <Header headerText='About'/>
+      <Nav/>
       <p>Such wow. Very React.</p>
     </div>
   )

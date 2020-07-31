@@ -1,13 +1,11 @@
 import React from "react";
-import { Link } from "gatsby";
-import Header from '../components/header'
+import Nav from '../components/nav'
 
 export default function Contact() {
     return (
         <div>
-            <Link to='/'>Home</Link>
-            <Header headerText='Contact'/>
-            <p>Email me at ljg2gb@virginia.edu</p>
+            <Nav/>
+            <p>Email me at lydia.gregory.dev@gmail.com</p>
         </div>
     )
 }
