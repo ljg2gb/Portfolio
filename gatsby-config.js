@@ -11,16 +11,5 @@ module.exports = {
     description: `Web Development portfolio for Washington, DC based software engineer Lydia Gregory.`,
     author: `Lydia Gregory`, 
   },
-  plugins: [`gatsby-plugin-sass`,
-    { resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Jost`,
-            variants: [`400`,`400 italic`, `700`]
-          }
-        ],
-      },
-    }
-  ],
+  plugins: [`gatsby-plugin-sass`],
 }
