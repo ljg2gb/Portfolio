@@ -1,10 +1,10 @@
-import React from "react"
+import React from "react";
 import { Link } from "gatsby";
 
 export default function Nav() {
-  return (
+  return(
     <nav>
-      <p>LYDIA GREGORY</p>
+      <Link className='name' to='/'>LYDIA GREGORY</Link>
       <div>
         <Link className='link' to='/'>Home</Link>
         <Link className='link' to='/about'>About</Link>
