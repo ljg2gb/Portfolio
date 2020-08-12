@@ -18,18 +18,16 @@ $grayscale9: #000000
 @mixin links
     font-weight: 600
     text-decoration: none
-    color: $grayscale5
+    color: $pink
     &:hover
         color: $coral
-        font-size: 20px
-
 
 body
     font-family: Avenir, Helvetica Neue, sans-serif
     height: 100vh
     margin: 0
     padding: 0
-    background-color: $white
+    background-color: $grayscale2
     color: $grayscale8
 
 h1
@@ -46,6 +44,7 @@ a
     @include links
 
 nav
+    background-color: $grayscale1
     display: flex
     align-items: center
     justify-content: space-between
@@ -55,6 +54,7 @@ nav
         font-size: 30px
         line-height: 80px
         font-weight: 700
+        color: $grayscale9
 
 .link
     padding: 12px
@@ -63,10 +63,17 @@ nav
 
 .layout
     width: 600px
-    margin-top: 100px
-    margin-left: 100px
+    padding: 100px
     h1
         margin: 16px 0
     h3
         margin: 10px 0
         line-height: 36px
+
+
+.projects
+    background-color: $grayscale1
+    padding: 5px 100px
+
+.project
+    background-color: $coral
