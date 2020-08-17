@@ -2,8 +2,12 @@ import React from "react";
 import Nav from '../components/nav';
 import Main from "../components/headerLayout";
 
+const email = <h3 className='email'>lydia.gregory.dev@gmail.com</h3>
 const title = 'Contact'
-const text = <h3>Email: lydia.gregory.dev@gmail.com</h3>
+const text = 
+    <div>
+        <h3>I'd love to hear from you! Feel free to shoot me an email at <i>lydia.gregory.dev@gmail.com</i> and connect on <a href="https://www.linkedin.com/in/lydia-gregory/">LinkedIn</a>!</h3>
+    </div>
 
 export default function Contact() {
     return (
