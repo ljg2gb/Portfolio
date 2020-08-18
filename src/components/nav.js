@@ -6,9 +6,10 @@ export default function Nav() {
     <nav>
       <Link className='name' to='/'>LYDIA GREGORY</Link>
       <div>
-        <Link className='link' to='/'>Home</Link>
-        <Link className='link' to='/about'>About</Link>
-        <Link className='link' to="/contact/">Contact</Link>
+        <Link className='nav-link' to='/'>Home</Link>
+        <Link className='nav-link' to='/about'>About</Link>
+        <Link className='nav-link' to="/resume/">Resume</Link>
+        <Link className='nav-link' to="/contact/">Contact</Link>
       </div>
     </nav>
   )

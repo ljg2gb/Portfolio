@@ -1,9 +1,9 @@
 import React from "react";
 import Project from "../components/project";
 
-const polaroll = <a href="https://github.com/ljg2gb/Polaroll">Polaroll</a>
-const candle = <a href="https://github.com/ljg2gb/Candle">Candle</a>
-const accountabilibuddies = <a href="https://github.com/ljg2gb/Accountabilibuddies">Accountabilibuddies</a>
+const polaroll = <a className='link' href="https://github.com/ljg2gb/Polaroll">Polaroll</a>
+const candle = <a className='link' href="https://github.com/ljg2gb/Candle">Candle</a>
+const accountabilibuddies = <a className='link' href="https://github.com/ljg2gb/Accountabilibuddies">Accountabilibuddies</a>
 
 export default function Projects() {
   return (

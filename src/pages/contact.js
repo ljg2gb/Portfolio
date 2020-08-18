@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from '../components/nav';
 import Main from "../components/headerLayout";
+import Footer from "../components/footer";
 
 const title = 'Contact'
 const text = 
@@ -13,6 +14,7 @@ export default function Contact() {
         <div>
             <Nav/>
             <Main title={title} text={text}/>
+            <Footer/>
         </div>
     )
 }

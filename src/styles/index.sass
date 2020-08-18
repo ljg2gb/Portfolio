@@ -43,15 +43,26 @@ p
     font-size: 18px
     color: $grayscale8
 
-a
+.link
     @include links
 
-img
-    width: 50vh
+.headshot
+    width: 60vh
     position: absolute
     right: 10vh
     top: 30vh
     border-radius: 5px
+
+.resume
+    margin-top: 10vh
+    display: flex
+    flex-direction: column
+    align-items: center
+    img
+        width: 100vh
+
+
+    
 
 nav
     // background-color: $grayscale1
@@ -60,17 +71,15 @@ nav
     justify-content: space-between
     padding: 0 20px
     line-height: 20px
-
     .name
         font-size: 30px
         line-height: 80px
         font-weight: 700
         color: $grayscale8
         text-decoration: none
-
-.link
-    padding: 12px
-    @include links
+    .nav-link
+        padding: 12px
+        @include links
 
 
 .layout
@@ -101,7 +110,7 @@ nav
 .footer
     display: flex
     justify-content: center
-    font-size: 32px
+    font-size: 28px
     a
         color: $grayscale8
         padding: .5em
