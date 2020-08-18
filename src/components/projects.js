@@ -12,7 +12,7 @@ export default function Projects() {
             <div className='projects-container'>
                 <Project 
                     title={polaroll}
-                    text='An interactive mobile camera/photo app inspired by the polaroid camera.'
+                    text='An interactive mobile camera/photo app inspired by the Polaroid camera.'
                 ></Project>
                 <Project 
                     title={candle} 

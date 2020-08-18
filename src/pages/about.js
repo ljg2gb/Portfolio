@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../components/nav";
 import Main from "../components/headerLayout";
+import me from "../../assets/Lydia.png"
 
 const title = 'About Me'
 const text = 
@@ -17,6 +18,7 @@ export default function About() {
     <div>
       <Nav/>
       <Main title={title} text={text} />
+      <img src={me} alt="Lydia loves dogs too" />
     </div>
   )
 }

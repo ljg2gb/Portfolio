@@ -33,18 +33,28 @@ body
 h1
     font-size: 72px
     margin: 30px 0
+    color: $grayscale8
 
 h2
     font-size: 36px
+    color: $grayscale8
 
 p
     font-size: 18px
+    color: $grayscale8
 
 a
     @include links
 
+img
+    width: 50vh
+    position: absolute
+    right: 10vh
+    top: 30vh
+    border-radius: 5px
+
 nav
-    background-color: $grayscale1
+    // background-color: $grayscale1
     display: flex
     align-items: center
     justify-content: space-between
@@ -55,7 +65,7 @@ nav
         font-size: 30px
         line-height: 80px
         font-weight: 700
-        color: $grayscale9
+        color: $grayscale8
         text-decoration: none
 
 .link
@@ -86,4 +96,15 @@ nav
     background-color: $grayscale1
     padding: 5px 1em
     border-radius: 5px
-    box-shadow: 2px 2px 5px $grayscale3;
+    box-shadow: 2px 2px 5px $grayscale3
+
+.footer
+    display: flex
+    justify-content: center
+    font-size: 32px
+    a
+        color: $grayscale8
+        padding: .5em
+
+
+

@@ -2,7 +2,6 @@ import React from "react";
 import Nav from '../components/nav';
 import Main from "../components/headerLayout";
 
-const email = <h3 className='email'>lydia.gregory.dev@gmail.com</h3>
 const title = 'Contact'
 const text = 
     <div>
