@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 export default function Nav() {
+
   return(
     <nav>
       <Link className='name' to='/'>LYDIA GREGORY</Link>

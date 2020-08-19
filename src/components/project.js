@@ -1,11 +1,15 @@
 import React from "react";
+import { navigate } from 'gatsby';
 
-export default function Project({title, text}) {
+export default function Project({title, text, path}) {
+  function navigateTo() {
+    navigate(path)
+  }
+  
   return (
-    <div className='project'>
-        <h3>{title}</h3>
-        <image></image>
-        <p>{text}</p>
-    </div>
+      <div className='project-thumbnail' onClick={() => navigateTo()}>
+          <h3>{title}</h3>
+          <p>{text}</p>
+      </div>
   );
 }
