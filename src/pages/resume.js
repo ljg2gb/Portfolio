@@ -8,8 +8,8 @@ export default function Resume() {
         <div>
             <Nav/>
             <div className='resume'>
-                <a href='../../assets/LydiaResume.pdf' download>Download Resume</a>
                 <img src={PDF} alt="Lydia Gregory Software Engineering Resume"/>
+                <a href='../../assets/LydiaResume.pdf' download>Download Resume</a>
             </div>
             <Footer/>
         </div>
