@@ -1,16 +1,11 @@
-import React from 'react'
-import Nav from '../components/nav'
-import Image from '../../assets/Candle.png'
-import Footer from '../components/footer'
+import React from 'react';
 
-export default function Candle() {
+export default function FullProject() {
     return(
-        <div>
-            <Nav/>
-            <div className='project-page'>
+        <div className='project-page'>
                 <div className='project-title'>
                     <h1>Candle</h1>
-                    <h4>A birthday reminder web application</h4>
+                    <h4>A Birthday Reminder App</h4>
                 </div>
                 <div className='media-box'>
                     <img className='project-page-media' src={Image} alt='screenshot of Candle'></img>
@@ -21,7 +16,6 @@ export default function Candle() {
                         <ul>
                             <li>ReactJS</li>
                             <li>Ruby on Rails</li>
-                            <li>Sass</li>
                         </ul>
                         <h4>Links</h4>
                         <ul>
@@ -39,7 +33,5 @@ export default function Candle() {
                     </div>
                 </div>
             </div>
-            <Footer/>
-        </div>
     )
 }
