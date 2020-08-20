@@ -111,8 +111,12 @@ li
     display: flex
     flex-direction: column
     align-items: center
+    @media (max-width: 600px)
+        margin: 4vh 0
     img
-        width: 140vh
+        max-width: 140vh
+        @media (max-width: 600px)
+            max-width: 40vh
     a
         background-color: $grayscale7
         padding: .5em 1em
@@ -135,7 +139,7 @@ nav
     justify-content: space-between
     padding: .5em 2em
     @media (max-width: 600px)
-        align-items: flex-start
+        padding: 1em
     .name
         line-height: 2.5em
         font-size: 2em
@@ -144,6 +148,7 @@ nav
         text-decoration: none
         @media (max-width: 600px)
             line-height: 1em
+            max-width: 25vh
     .nav-link-container
         @media (max-width: 600px)
             display: flex
@@ -151,6 +156,9 @@ nav
     .nav-link
         padding: .5em
         @include links
+        @media (max-width: 600px)
+            padding: 0
+            align-self: flex-end
         
 .layout
     @media (min-width: 600px)
@@ -170,10 +178,13 @@ nav
 .projects
     background-color: $grayscale2
     padding: 5px 5em
-    margin-bottom: 5em
+    @media (max-width: 600px)
+        padding: .5em 2em
 
 .projects-container
     display: flex
+    @media (max-width: 600px)
+        flex-direction: column
     .project-thumbnail
         text-decoration: none
         margin-right: 6vh
@@ -185,6 +196,9 @@ nav
             text-decoration: none
         p
             text-decoration: none
+        @media (max-width: 600px)
+            margin: .5em 0
+
 
 .footer
     padding-top: 3em
