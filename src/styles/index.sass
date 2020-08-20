@@ -215,12 +215,18 @@ nav
 
 .project-page
     padding: 0 5em
+    @media (max-width: 600px)
+        padding: 0 2em
     .project-title
         display: flex
         align-items: baseline
+        @media (max-width: 600px)
+            flex-direction: column
         h1
             padding-right: 20px
             margin-bottom: 20px
+            @media (max-width: 600px)
+                margin-bottom: 0
         h4
             color: $grayscale5
     .media-box
@@ -228,15 +234,21 @@ nav
         background-color: $grayscale1
         display: flex
         justify-content: center
+        @media (max-width: 600px)
+            padding: .5em
         .project-page-media
             width: 100%
             box-shadow: 5px 5px 10px $grayscale3
             border-radius: 5px
     .text-container
         display: flex
+        @media (max-width: 600px)
+            flex-direction: column
         div
             padding: 1em 4em
             min-width: 15%
+            @media (max-width: 600px)
+                padding: 0
 
 
 
