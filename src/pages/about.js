@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "../components/nav";
-import Main from "../components/headerLayout";
 import me from "../../assets/Lydia.png"
 import Footer from "../components/footer";
 
@@ -18,8 +17,17 @@ export default function About() {
   return (
     <div>
       <Nav/>
-      <Main title={title} text={text} />
-      <img className='headshot' src={me} alt="Lydia Gregory" />
+      <div className='about-layout'>
+        <h1>{title}</h1>
+        <div className='about-content'>
+          {/* <div> */}
+            <h3>{text}</h3>
+          {/* </div>
+          <div> */}
+            <img className='headshot' src={me} alt="Lydia Gregory" />
+          {/* </div> */}
+        </div>
+      </div>
       <Footer/>
     </div>
   )
