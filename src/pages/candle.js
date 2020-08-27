@@ -30,7 +30,7 @@ export default function Candle() {
                     </div>
                     <div>
                         <h4>Description</h4>
-                        <p>Candle is a web app built to never again forget an important birthday. After logging in, the user can view all of the birthday's happening that month and see all the friends currently listed in the app. They can also easily add or remove a birthday from the app. The app, which takes advantage of the date/time Javascript object, will dynamically updates the age of each friend as a birthday passes on the frontend, while storing the DD/MM/YY of each friend in the database. </p>
+                        <p>Candle is a web app built to never again forget an important birthday. After logging in, the user can view all of the birthdays happening that month and see all the friends currently listed in the app. They can also easily add or remove a birthday from the app. The app, which takes advantage of the date/time Javascript object, will dynamically update the age of each friend as a birthday passes on the frontend, while storing the DD/MM/YY of each friend in the database.</p>
                         <h4>Details</h4>
                         <ul>
                             <li>Four-day solo project</li>
