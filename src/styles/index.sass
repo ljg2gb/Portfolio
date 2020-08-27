@@ -1,3 +1,4 @@
+// colors
 $white: #F1F1F1
 $gray: #CAD0D8
 $dark-blue: #0C0C28
@@ -15,32 +16,9 @@ $grayscale7: #393e44
 $grayscale8: #212528
 $grayscale9: #000000
 
+// sizes
 $h1-size: 4em
-
-/* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px)
-    h1
-        color: red
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 600px)
-    h1
-        color: blue
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media (min-width: 768px)
-    h1
-        color: green
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 992px)
-    h1
-        color: yellow
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media (min-width: 1200px)
-    h1
-        color: orange
+$phone: 600px    
 
 @mixin links
     font-weight: 600
@@ -83,7 +61,7 @@ li
 
 .about-layout
     padding: 0 5em
-    @media (max-width: 600px)
+    @media (max-width: $phone)
         padding: 0 2em
     h1
         margin: .5em 0
@@ -91,19 +69,19 @@ li
         display: flex
         justify-content: flex-start
         align-items: flex-start
-        @media (max-width: 600px)
+        @media (max-width: $phone)
             flex-direction: column
             justify-content: center
             align-items: center
         h3
             margin-top: 0
         .headshot
-            @media (min-width: 600px)
+            @media (min-width: $phone)
                 object-fit: contain
                 max-width: 50vh
                 border-radius: 5px
                 margin: 0 2em
-            @media (max-width: 600px)
+            @media (max-width: $phone)
                 max-width: 40vh
 
 .resume
@@ -111,11 +89,11 @@ li
     display: flex
     flex-direction: column
     align-items: center
-    @media (max-width: 600px)
+    @media (max-width: $phone)
         margin: 4vh 0
     img
         max-width: 140vh
-        @media (max-width: 600px)
+        @media (max-width: $phone)
             max-width: 40vh
     a
         background-color: $grayscale7
@@ -138,7 +116,7 @@ nav
     align-items: center
     justify-content: space-between
     padding: .5em 2em
-    @media (max-width: 600px)
+    @media (max-width: $phone)
         padding: 1em
     .name
         line-height: 2.5em
@@ -146,22 +124,22 @@ nav
         font-weight: 700
         color: $grayscale8
         text-decoration: none
-        @media (max-width: 600px)
+        @media (max-width: $phone)
             line-height: 1em
             max-width: 25vh
     .nav-link-container
-        @media (max-width: 600px)
+        @media (max-width: $phone)
             display: flex
             flex-direction: column
     .nav-link
         padding: .5em
         @include links
-        @media (max-width: 600px)
+        @media (max-width: $phone)
             padding: 0
             align-self: flex-end
         
 .layout
-    @media (min-width: 600px)
+    @media (min-width: $phone)
         width: 50%
         padding: 5em
         h1
@@ -169,21 +147,21 @@ nav
         h3
             margin: 10px 0
             line-height: 36px
-    @media (max-width: 600px)
+    @media (max-width: $phone)
         padding: 2em
     h1
-        @media (max-width: 600px)
+        @media (max-width: $phone)
             padding: 0
 
 .projects
     background-color: $grayscale2
     padding: 5px 5em
-    @media (max-width: 600px)
+    @media (max-width: $phone)
         padding: .5em 2em
 
 .projects-container
     display: flex
-    @media (max-width: 600px)
+    @media (max-width: $phone)
         flex-direction: column
     .project-thumbnail
         text-decoration: none
@@ -196,11 +174,11 @@ nav
             text-decoration: none
         p
             text-decoration: none
-        @media (max-width: 600px)
+        @media (max-width: $phone)
             margin: .5em 0
 
 .accountabilibuddes-title
-    @media ( max-width: 600px )
+    @media ( max-width: $phone)
         font-size: 2em
 
 .footer
@@ -218,40 +196,40 @@ nav
 
 .project-page
     padding: 0 5em
-    @media (max-width: 600px)
+    @media (max-width: $phone)
         padding: 0 2em
     .project-title
         display: flex
         align-items: baseline
-        @media (max-width: 600px)
+        @media (max-width: $phone)
             flex-direction: column
         h1
             padding-right: 20px
             margin-bottom: 20px
-            @media (max-width: 600px)
+            @media (max-width: $phone)
                 margin-bottom: 0
         h4
             color: $grayscale5
     .media-box
         padding: 1.5em
         background-color: $grayscale1
-        @media (max-width: 600px)
+        @media (max-width: $phone)
             padding: .5em
         .project-page-media
             max-width: 100%
             object-fit: contain
             box-shadow: 5px 5px 10px $grayscale3
             border-radius: 5px
-            @media (max-width: 600px)
+            @media (max-width: $phone)
                 border-radius: 2px
     .text-container
         display: flex
-        @media (max-width: 600px)
+        @media (max-width: $phone)
             flex-direction: column
         div
             padding: 1em 4em
             min-width: 15%
-            @media (max-width: 600px)
+            @media (max-width: $phone)
                 padding: 0
 
 
