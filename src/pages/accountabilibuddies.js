@@ -9,7 +9,7 @@ export default function Accountabilibuddies() {
             <Nav/>
             <div className='project-page'>
                 <div className='project-title'>
-                    <h1>Accountabilibuddies</h1>
+                    <h1 className='accountabilibuddes-title'>Accountabilibuddies</h1>
                     <h4>Helping groups complete tasks</h4>
                 </div>
                 <div className='media-box'>

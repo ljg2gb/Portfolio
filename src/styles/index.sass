@@ -199,6 +199,9 @@ nav
         @media (max-width: 600px)
             margin: .5em 0
 
+.accountabilibuddes-title
+    @media ( max-width: 600px )
+        font-size: 2em
 
 .footer
     padding-top: 3em
@@ -232,16 +235,15 @@ nav
     .media-box
         padding: 1.5em
         background-color: $grayscale1
-        display: flex
-        justify-content: center
         @media (max-width: 600px)
             padding: .5em
-            max-height: 6vh
         .project-page-media
             max-width: 100%
-            // object-fit: contain
+            object-fit: contain
             box-shadow: 5px 5px 10px $grayscale3
             border-radius: 5px
+            @media (max-width: 600px)
+                border-radius: 2px
     .text-container
         display: flex
         @media (max-width: 600px)
