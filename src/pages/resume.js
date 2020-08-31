@@ -1,5 +1,6 @@
 import React from 'react';
-import PDF from '../../assets/LydiaResume.png';
+import resumePNG from '../../assets/LydiaResume.png';
+import resumePDF from '../../assets/LydiaResume.pdf';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
 
@@ -8,8 +9,8 @@ export default function Resume() {
         <div>
             <Nav/>
             <div className='resume'>
-                <img src={PDF} alt="Lydia Gregory Software Engineering Resume"/>
-                <a href='../../assets/LydiaResume.pdf' download>Download Resume</a>
+                <img src={resumePNG} alt="Lydia Gregory Software Engineering Resume"/>
+                <a href={resumePDF} download>Download Resume</a>{` `}
             </div>
             <Footer/>
         </div>
