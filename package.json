@@ -3,7 +3,7 @@
   "private": true,
   "description": "Web development portfolio site",
   "version": "0.1.0",
-  "author": "Lydia Gregory <ljg2gb@virginia.edu>",
+  "author": "Lydia Gregory <lydia.gregory.dev@gmail.com>",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
