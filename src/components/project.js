@@ -19,3 +19,5 @@ export default function Project({title, text, path}) {
       </div>
   );
 }
+
+
