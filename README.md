@@ -6,8 +6,9 @@
 <h1 align="center">
   Lydia Gregory Portfolio
 </h1>
+Welcome to my portfolio. Please feel free to reach out with any questions or comments. My email is lydia.gregory.dev@gmail.com.
 
-This portfolio is still in the works! Please check out my [github](https://github.com/ljg2gb) to see my latest projects.
+Built in Gatsby, deployed on Firebase.
 
 ## Plugins
 * Gatsby-plugin-sass
