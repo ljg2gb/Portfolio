@@ -1,17 +1,16 @@
 import React from "react";
 import Nav from "../components/nav";
-import Announcement from "../components/headerLayout";
 import Projects from "../components/projects";
 import Footer from "../components/footer";
 
-const title = 'Web Developer'
-const text = <h3>Welcome! I'm glad you're here. I am a Full Stack Web Developer based in Washington DC. I love building fast and interactive web and mobile applications using modern frameworks.</h3>
-
+const text = <h2>👋 Hi, I'm glad you're here! I am a Full Stack Web Developer interested in building beautiful, breezy applications. If you're looking for someone to join your team, <a className='link' href="mailto:lydia.gregory.dev@gmail.com" target="_blank" rel="noreferrer">contact me</a>!</h2>
 export default function Home() {
   return (
     <div>
       <Nav/>
-      <Announcement title={title} text={text} />
+      <div className='layout'>
+        {text}
+      </div>
       <Projects/>
       <Footer/>
     </div>

@@ -25,7 +25,7 @@ export default function Candle() {
                         </ul>
                         <h4>Links</h4>
                         <ul>
-                            <li><a className='small-link' href='https://github.com/ljg2gb/Candle'>Code</a></li>
+                            <li><a className='small-link' href='https://github.com/ljg2gb/Candle' target="_blank" rel="noreferrer">Code</a></li>
                         </ul>
                     </div>
                     <div>

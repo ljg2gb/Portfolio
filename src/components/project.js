@@ -7,7 +7,7 @@ export default function Project({title, text, path}) {
   }
 
   function handleKeyDown(ev) {
-    if (ev.keyCode == 13) {
+    if (ev.keyCode === 13) {
       navigateTo()
     }
   }

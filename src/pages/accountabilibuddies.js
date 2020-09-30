@@ -24,8 +24,8 @@ export default function Accountabilibuddies() {
                         </ul>
                         <h4>Links</h4>
                         <ul>
-                            <li><a className='small-link' href='https://github.com/ljg2gb/Accountabilibuddies'>Code</a></li>
-                            <li><a className='small-link' href='https://www.youtube.com/watch?v=ECMCJ1QmmPw'>Demo Video</a></li>
+                            <li><a className='small-link' href='https://github.com/ljg2gb/Accountabilibuddies' target="_blank" rel="noreferrer">Code</a></li>
+                            <li><a className='small-link' href='https://www.youtube.com/watch?v=ECMCJ1QmmPw' target="_blank" rel="noreferrer">Demo Video</a></li>
                         </ul>
                     </div>
                     <div>
