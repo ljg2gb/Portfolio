@@ -9,9 +9,9 @@ export default function Home() {
       <Nav/>
       <div className='layout'>
         <h2>
-          <span role="img" aria-label="hand wave">👋</span> 
+          <span role="img" aria-label="hand wave">👋 </span> 
           Hi, I'm glad you're here! I am a Full Stack Web Developer interested in building beautiful, breezy applications. If you're looking for someone to join your team, 
-          <a className='link' href="mailto:lydia.gregory.dev@gmail.com" target="_blank" rel="noreferrer">contact me</a>!
+          <a className='link' href="mailto:lydia.gregory.dev@gmail.com" target="_blank" rel="noreferrer"> contact me</a>!
         </h2>
       </div>
       <Projects/>

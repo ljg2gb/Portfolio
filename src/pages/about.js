@@ -10,7 +10,12 @@ const text =
         <br/>
         <h3>Finding code has allowed me to express myself and my ideas in new and creative ways. I love the challenge of solving interesting code problems, and am excited to have chosen a career with endless opporunities to learn and grow. If you'd like to chat, my email is <i>lydia.gregory.dev@gmail.com</i>. I'd love to hear from you.</h3>
         <br/>
-        <h3>You can check out my design work, photography, and sculptures at <a className='link' href='https://ljg2gb.myportfolio.com/'>personal portfolio</a>.</h3>
+        <h3>Want to learn more? Check out these links below:</h3>
+        <ul>
+          <li><span role="img" aria-label="right arrow emoji">➡️ </span><a className='link' href='https://ljg2gb.myportfolio.com/'>Designs, art, photography, etc.</a></li>
+          <li><span role="img" aria-label="right arrow emoji">➡️ </span><a className='link' href='https://lydia-gregory.medium.com/'>What I'm interested in right now</a></li>
+          <li><span role="img" aria-label="right arrow emoji">➡️ </span><a className='link' href='https://codepen.io/Lydia_gregory'>Various frontend experiments</a></li>
+        </ul>
     </div>
     
 export default function About() {

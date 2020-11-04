@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div className='footer'>
             <div>
-                <p>Built with <span role="img" aria-label="heart emoji">❤ </span> by Lydia</p>
+                <p>Built with <span role="img" aria-label="heart emoji">❤️ </span> by Lydia</p>
             </div>
             <div>
                 <a href='https://github.com/ljg2gb'>
