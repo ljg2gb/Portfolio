@@ -18,7 +18,7 @@ export default function Footer() {
                         <FaLinkedin/>
                     </span>
                 </a>
-                <a href='https://medium.com/@ljg2gb'>
+                <a href='https://lydia-gregory.medium.com/'>
                     <span role="img" aria-label="link to Medium">
                         <FaMedium/>
                     </span>
