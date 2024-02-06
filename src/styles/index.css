@@ -1,0 +1,321 @@
+// colors
+$white: #F1F1F1;
+$gray: #CAD0D8;
+$dark-blue: #0C0C28;
+$blue: #3688D8;
+$pink: #F9B3AF;
+$coral: #F9724E;
+
+$grayscale1: #ffffff;
+$grayscale2: #f2f6fa;
+$grayscale3: #ced7dd;
+$grayscale4: #9ea8af;
+$grayscale5: #7e878c;
+$grayscale6: #5b6168;
+$grayscale7: #393e44;
+$grayscale8: #212528;
+$grayscale9: #000000;
+
+// sizes
+$h1-size: 4em;
+$phone: 600px;
+
+body {
+	font-family: Avenir, Helvetica Neue, sans-serif;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color: $grayscale2;
+	color: $grayscale8;
+}
+
+h1 {
+	font-size: $h1-size;
+	margin: 1em 0;
+	color: $grayscale8;
+}
+
+h2 {
+	font-size: 2em;
+	color: $grayscale8;
+}
+
+p {
+	color: $grayscale8;
+}
+
+ul {
+	padding-inline-start: 0em;
+}
+
+li {
+	list-style-type: none;
+}
+
+.link {
+	font-weight: 600;
+	text-decoration: none;
+	color: $coral;
+
+	&:hover {
+		color: $pink;
+	}
+}
+
+.small-link {
+	color: $grayscale8;
+}
+
+.about-layout {
+	padding: 0 5em;
+
+	@media (max-width: $phone) {
+		padding: 0 2em;
+	}
+
+	h1 {
+		margin: .5em 0;
+	}
+
+	.about-content {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+
+		@media (max-width: $phone) {
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		h3 {
+			margin-top: 0;
+		}
+
+		.headshot {
+			@media (min-width: $phone) {
+				object-fit: contain;
+				max-width: 50vh;
+				border-radius: 5px;
+				margin: 0 2em;
+			}
+
+			@media (max-width: $phone) {
+				max-width: 40vh;
+			}
+		}
+	}
+}
+
+.resume {
+	margin: 10vh 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	@media (max-width: $phone) {
+		margin: 4vh 0;
+	}
+
+	img {
+		max-width: 140vh;
+
+		@media (max-width: $phone) {
+			max-width: 40vh;
+		}
+
+		a {
+			background-color: $grayscale7;
+			padding: .5em 1em;
+			margin: 2em;
+			text-decoration: none;
+			border-radius: 5px;
+			box-shadow: 2px 2px 5px $grayscale3;
+			color: $grayscale1;
+			font-weight: 400;
+		}
+
+		&:hover {
+			color: $pink;
+			-webkit-transform: perspective(1px) translateZ(0);
+			transform: perspective(1px) translateZ(0);
+			-webkit-transition-duration: 0.3s;
+		}
+	}
+}
+
+
+nav {
+	display: flex
+	align-items: center
+	justify-content: space-between
+	padding: .5em 2em
+
+	@media (max-width: $phone) {
+		padding: 1em
+	}
+
+	.name {
+		line-height: 2.5em
+		font-size: 2em
+		font-weight: 700
+		color: $grayscale8
+		text-decoration: none
+
+		@media (max-width: $phone) {
+			line-height: 1em
+			max-width: 25vh
+		}
+	}
+
+	.nav-link-container {
+		@media (max-width: $phone) {
+			display: flex
+			flex-direction: column
+		}
+	}
+
+	.nav-link {
+		padding: .5em;
+		font-weight: 600;
+		text-decoration: none;
+		color: $coral;
+
+		&:hover {
+			color: $pink;
+		}
+
+		@media (max-width: $phone) {
+			padding: 0;
+			align-self: flex-end;
+		}
+	}
+}
+
+.layout {
+	@media (min-width: $phone) {
+		width: 50%;
+		padding: 5em;
+
+		h1 {
+			margin: .5em 0;
+		}
+		h2 {
+			font-size: 2.2em;
+			line-height: 1.4em;
+		}
+
+		h3 {
+			margin: 10px 0;
+			line-height: 36px;
+		}
+	}
+
+	@media (max-width: $phone) {
+		padding: 2em;
+	}
+
+	h1, h2 {
+		@media (max-width: $phone) {
+			padding: 0;
+		}
+	}
+}
+
+.projects {
+	background-color: $grayscale2;
+	padding: 5px 5em;
+
+	@media (max-width: $phone) {
+		padding: .5em 2em;
+	}
+}
+
+.projects-container {
+	display: flex;
+
+	@media (max-width: $phone) {
+		flex-direction: column;
+	}
+
+	.project-thumbnail {
+		text-decoration: none
+		margin-right: 6vh;
+		background-color: $grayscale1;
+		padding: 5px 1em;
+		border-radius: 5px;
+		box-shadow: 2px 2px 5px $grayscale3;
+
+		h3 {
+			text-decoration: none;
+		}
+
+		p {
+			text-decoration: none;
+		}
+
+		@media (max-width: $phone) {
+			margin: .5em 0;
+		}
+	}
+}
+
+.accountabilibuddes-title
+    @media ( max-width: $phone)
+        font-size: 2em
+
+.footer
+    padding: 3em 1em 0 1em
+    display: flex
+    justify-content: space-between
+    align-items: center
+    a
+        color: $grayscale8
+        font-size: 16px
+        padding: .5em 1em
+
+.contact-page
+    min-height: 100vh
+
+
+.project-page
+    padding: 0 5em
+    @media (max-width: $phone)
+        padding: 0 2em
+    .project-title
+        display: flex
+        align-items: baseline
+        @media (max-width: $phone)
+            flex-direction: column
+        h1
+            padding-right: 20px
+            margin-bottom: 20px
+            @media (max-width: $phone)
+                margin-bottom: 0
+        h4
+            color: $grayscale5
+    .media-box
+        padding: 1.5em
+        background-color: $grayscale1
+        @media (max-width: $phone)
+            padding: .5em
+        .project-page-media
+            max-width: 100%
+            object-fit: contain
+            box-shadow: 5px 5px 10px $grayscale3
+            border-radius: 5px
+            @media (max-width: $phone)
+                border-radius: 2px
+    .text-container
+        display: flex
+        @media (max-width: $phone)
+            flex-direction: column
+        div
+            padding: 1em 4em
+            min-width: 15%
+            @media (max-width: $phone)
+                padding: 0
+
+
+
+
