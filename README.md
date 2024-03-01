@@ -10,9 +10,6 @@ Welcome to my portfolio. Please feel free to reach out with any questions or com
 
 Built in Gatsby, deployed on Firebase.
 
-## Plugins
-* Gatsby-plugin-sass
-
 ## 💫 Author
 
 * [Lydia Gregory](https://www.linkedin.com/in/lydia-gregory/)
