@@ -1,15 +1,32 @@
 import React from "react"
-import Footer from "../components/footer"
+import photo from "../../assets/bagelpub.jpeg"
+import "../../styles/index.css"
 
 const Home = () => {
   return (
-    <main>
-      <h1>Lydia Gregory</h1>
+    <>
+      <main>
+        <div style={{ marginTop: "16px" }}>
+          <h1>Lydia Gregory</h1>
 
-      <p>website currently under construction</p>
+          <p>Full-Stack Software Engineer</p>
 
-      <Footer />
-    </main>
+          <p>Seattle, WA</p>
+        </div>
+
+        <div style={{ marginBottom: "16px" }}>
+          <p>
+            <a href="https://github.com/ljg2gb">Github</a>
+          </p>
+
+          <p>
+            <a href="https://www.linkedin.com/in/lydia-gregory/">LinkedIn</a>
+          </p>
+        </div>
+      </main>
+
+      <img src={photo} alt="" />
+    </>
   )
 }
 
