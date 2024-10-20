@@ -1,0 +1,39 @@
+html {
+  font-family: monospace;
+}
+
+body {
+  background-color: #f8f7f5;
+  margin: 0px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 40px;
+  position: relative;
+  z-index: 10;
+
+  @media only screen and (min-width: 970px) {
+    height: 100vh;
+  }
+}
+
+img {
+  position: absolute;
+  top: 0;
+
+  @media only screen and (min-width: 970px) {
+    height: 100vh;
+    right: 0;
+  }
+}
+
+a {
+  color: #405959;
+
+  &:visited {
+    color: #893615;
+  }
+}
